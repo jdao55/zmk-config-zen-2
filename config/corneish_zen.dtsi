@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "Corne-ish Zen";
+    model = "Jdao Corne";
     compatible = "corneish_zen";
 
     chosen {
