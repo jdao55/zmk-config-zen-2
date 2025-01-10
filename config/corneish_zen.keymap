@@ -27,6 +27,9 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
     };
+    &lt {
+        tapping-term-ms = <400>;
+    };
 
     keymap {
         compatible = "zmk,keymap";
