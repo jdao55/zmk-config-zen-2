@@ -58,7 +58,7 @@
             display-name = "NUMBER";
 
             // -----------------------------------------------------------------------------------------
-            // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // |  ESC |  1  |  2  | 3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | CTRL |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  ~   |
             // | SHFT |     |     |     |     |     |   |  -  |  _  |  +  |  {  |  }  |  |   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
@@ -91,10 +91,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp F1             &kp F2           &kp F3          &kp F4        &kp F5        &kp F6            &kp F7            &kp F8           &kp F9           &kp F10           &kp F11          &kp F12
-&bt BT_CLR         &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bootloader       &bootloader      &kp INS          &kp HOME          &kp PG_UP        &kp PRINTSCREEN
-&ext_power EP_TOG  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD   &kp PAUSE_BREAK  &trans
-                                             &trans        &trans        &trans            &trans            &trans           &trans
+&kp F1             &kp F2           &kp F3          &kp F4            &kp F5             &kp F6            &kp F7            &kp F8           &kp F9        &kp F10       &kp F11          &kp F12
+&bt BT_CLR         &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3      &bootloader       &bootloader      &kp INS       &kp HOME      &kp PG_UP        &kp PRINTSCREEN
+&ext_power EP_TOG  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &rgb_ug RGB_SPI    &rgb_ug RGB_BRIs  &rgb_ug RGB_BRD   &trans           &trans        &kp END       &kp PG_DN        &kp PAUSE_BREAK
+                                                    &trans            &trans             &trans            &trans            &trans           &trans
             >;
         };
     };
