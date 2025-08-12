@@ -91,9 +91,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp F1             &kp F2           &kp F3          &kp F4            &kp F5             &kp F6            &kp F7            &kp F8           &kp F9        &kp F10       &kp F11          &kp F12
-&bt BT_CLR         &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3      &bootloader       &bootloader      &kp INS       &kp HOME      &kp PG_UP        &kp PRINTSCREEN
-&ext_power EP_TOG  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &rgb_ug RGB_SPI    &rgb_ug RGB_BRIs  &rgb_ug RGB_BRD   &trans           &trans        &kp END       &kp PG_DN        &kp PAUSE_BREAK
+&kp F1             &kp F2           &kp F3          &kp F4            &kp F5             &kp F6            &kp F7            &kp F8           &kp F9            &kp F10       &kp F11          &kp F12
+&bt BT_CLR         &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3      &bootloader       &bootloader      &kp INS           &kp HOME      &kp PG_UP        &kp PRINTSCREEN
+&ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF &rgb_ug RGB_HUI   &rgb_ug RGB_HUD    &rgb_ug RGB_BRI   &rgb_ug RGB_BRD   &rgb_ug RGB_SAI  &rgb_ug RGB_SAD   &kp END       &kp PG_DN        &kp PAUSE_BREAK
                                                     &trans            &trans             &trans            &trans            &trans           &trans
             >;
         };
